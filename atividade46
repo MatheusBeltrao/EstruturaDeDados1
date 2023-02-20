@@ -1,0 +1,16 @@
+import java.util.Scanner;
+
+public class Atividade {
+  public static void main(String[] args) {
+    double saldo, novoSaldo;
+
+    Scanner sc = new Scanner(System.in);
+
+    System.out.print("Digite o saldo: ");
+    saldo = sc.nextDouble();
+
+    novoSaldo = saldo * 1.01;
+
+    System.out.printf("Novo saldo: %.2f\n", novoSaldo);
+  }
+}
