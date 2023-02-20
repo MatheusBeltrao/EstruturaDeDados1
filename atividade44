@@ -1,0 +1,17 @@
+import java.util.Scanner;
+
+public class Atividade {
+    public static void main(String[] args) {
+        double num, base, logaritmo;
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Entre com o logaritmando: ");
+        num = scanner.nextDouble();
+
+        System.out.print("Entre com a base: ");
+        base = scanner.nextDouble();
+
+        logaritmo = Math.log(num) / Math.log(base);
+        System.out.println("O logaritmo de " + num + " na base " + base + " é: " + logaritmo);
+    }
+}
