@@ -1,0 +1,23 @@
+import java.util.Scanner;
+
+public class Atividade {
+  public static void main(String[] args) {
+    double sm, qtdade, preco, vp, vd;
+
+    Scanner sc = new Scanner(System.in);
+
+    System.out.print("Entre com o salário mínimo: ");
+    sm = sc.nextDouble();
+
+    System.out.print("Entre com a quantidade em quilowatt: ");
+    qtdade = sc.nextDouble();
+
+    preco = sm / 7 / 100; // Divide por 7 para achar o preço de 100 Kw e por 100 para achar de 1 Kw
+    vp = preco * qtdade;
+    vd = vp * 0.9;
+
+    System.out.printf("Preço do quilowatt: R$ %.2f\n", preco);
+    System.out.printf("Valor a ser pago: R$ %.2f\n", vp);
+    System.out.printf("Valor com desconto: R$ %.2f\n", vd);
+  }
+}
