@@ -1,6 +1,0 @@
-public class Atividade11 {
-
-public static void name() {
-    System.out.println("Apredendo Algoritmo");
-}
-}
