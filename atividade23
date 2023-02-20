@@ -1,0 +1,12 @@
+import java.util.Scanner;
+
+public class Atividade {
+    public static void main(String[] args) {
+        int a, d;
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Digite número de três casas:");
+        a = scanner.nextInt();
+        d = (a % 100) / 10;
+        System.out.println("Algarismo da casa das dezenas: " + d);
+    }
+}
