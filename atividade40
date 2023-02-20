@@ -1,0 +1,21 @@
+import java.util.Scanner;
+
+public class Atividade {
+    public static void main(String[] args) {
+        int quoc, rest, vali, val2;
+        Scanner input = new Scanner(System.in);
+        System.out.print("\nEntre com o dividendo: ");
+        vali = input.nextInt();
+        System.out.print("\nEntre com o divisor: ");
+        val2 = input.nextInt();
+        quoc = vali / val2;
+        rest = vali % val2;
+        System.out.print("\n\n\n");
+        System.out.println("Dividendo: " + vali);
+        System.out.println("Divisor: " + val2);
+        System.out.println("Quociente: " + quoc);
+        System.out.println("Resto: " + rest);
+        System.out.println();
+    }
+}
+
