@@ -1,0 +1,15 @@
+
+import java.util.Scanner;
+
+public class Atividade {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+
+        System.out.print("Entre com o logaritmando: ");
+        double num = input.nextDouble();
+
+        double logaritmo = Math.log10(num);
+
+        System.out.println("Logaritmo: " + logaritmo);
+    }
+}
