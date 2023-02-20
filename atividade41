@@ -1,0 +1,23 @@
+import java.util.Scanner;
+
+public class Atividade {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        double a, b, c, d, mp;
+        
+        System.out.print("Entre com o primeiro número: ");
+        a = input.nextDouble();
+        
+        System.out.print("Entre com o segundo número: ");
+        b = input.nextDouble();
+        
+        System.out.print("Entre com o terceiro número: ");
+        c = input.nextDouble();
+        
+        System.out.print("Entre com o quarto número: ");
+        d = input.nextDouble();
+        
+        mp = (a*1 + b*2 + c*3 + d*4)/10;
+        System.out.println("Média ponderada: " + mp);
+    }
+}
